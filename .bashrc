@@ -41,15 +41,15 @@ fi
 if [[ $hn == *"inf00"* ]]
 then
     echo "Loading infer-t4..."
-		module load  OpenMPI/4.0.5-gcccuda-2020b
-		module load  CMake/3.18.4-GCCcore-10.2.0
+    module load  OpenMPI/4.0.5-gcccuda-2020b
+    module load  CMake/3.18.4-GCCcore-10.2.0
 fi
 
 if [[ $hn == *"inf01"* ]]
 then
     echo "Loading infer-t4..."
-		module load  OpenMPI/4.0.5-gcccuda-2020b
-		module load  CMake/3.18.4-GCCcore-10.2.0
+    module load  OpenMPI/4.0.5-gcccuda-2020b
+    module load  CMake/3.18.4-GCCcore-10.2.0
 fi
 
 if [[ $hn == *"inf02"* ]]
