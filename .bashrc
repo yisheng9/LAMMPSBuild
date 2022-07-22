@@ -41,41 +41,47 @@ fi
 if [[ $hn == *"inf00"* ]]
 then
     echo "Loading infer-t4..."
-    module load  OpenMPI/4.0.5-gcccuda-2020b
-    module load  CMake/3.18.4-GCCcore-10.2.0
+    module load CMake/3.20.1-GCCcore-10.3.0
+    module load cuda10.1/toolkit/10.1.243
+    module load OpenMPI/4.0.5-GCC-10.2.0
 fi
 
 if [[ $hn == *"inf01"* ]]
 then
     echo "Loading infer-t4..."
-    module load  OpenMPI/4.0.5-gcccuda-2020b
-    module load  CMake/3.18.4-GCCcore-10.2.0
+    module load CMake/3.20.1-GCCcore-10.3.0
+    module load cuda10.1/toolkit/10.1.243
+    module load OpenMPI/4.0.5-GCC-10.2.0
 fi
 
 if [[ $hn == *"inf02"* ]]
 then
     echo "Loading infer-p100..."
-    module load  OpenMPI/4.0.5-gcccuda-2020b
-    module load  CMake/3.18.4-GCCcore-10.2.0
+    module load CMake/3.20.1-GCCcore-10.3.0
+    module load cuda10.1/toolkit/10.1.243
+    module load OpenMPI/4.0.5-GCC-10.2.0
 fi
 
 if [[ $hn == *"inf03"* ]]
 then
     echo "Loading infer-p100..."
-    module load  OpenMPI/4.0.5-gcccuda-2020b
-    module load  CMake/3.18.4-GCCcore-10.2.0
+    module load CMake/3.20.1-GCCcore-10.3.0
+    module load cuda10.1/toolkit/10.1.243
+    module load OpenMPI/4.0.5-GCC-10.2.0
 fi
 
 if [[ $hn == *"inf04"* ]]
 then
     echo "Loading infer-p100..."
-    module load  OpenMPI/4.0.5-gcccuda-2020b
-    module load  CMake/3.18.4-GCCcore-10.2.0
+    module load CMake/3.20.1-GCCcore-10.3.0
+    module load cuda10.1/toolkit/10.1.243
+    module load OpenMPI/4.0.5-GCC-10.2.0
 fi
 
 if [[ $hn == *"inf05"* ]]
 then
     echo "Loading infer-p100..."
-    module load  OpenMPI/4.0.5-gcccuda-2020b
-    module load  CMake/3.18.4-GCCcore-10.2.0
+    module load CMake/3.20.1-GCCcore-10.3.0
+    module load cuda10.1/toolkit/10.1.243
+    module load OpenMPI/4.0.5-GCC-10.2.0
 fi
